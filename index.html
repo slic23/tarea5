@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+   <div class="container  w-75 bg-white mt-5 rounded-3 shadow">
+    <div class="row  align-items-lg-stretch">
+     <div class="col  foto my-5 d-none d-md-block"></div> <!--Añado un breakpoint a la hora de operar esta version la imagen se elemine temporalmente al estar a una cierta dimension   -->
+     <div class="col py-5">
+      <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+      <form action="./menu.html">
+          <div class="mb-4">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" name="email">
+          </div>
+          <div class="mb-4">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="password">                       
+          </div>
+          <div class="mb-4 form-check">
+              <input type="checkbox" name="connected" class="form-check-input">
+              <label for="connected" class="form-check-label">Mantenerme conectado</label>
+          </div>
+          <div class="d-grid">
+              <button type="submit" id="boton" class="btn btn-primary ">Iniciar Sesión</button>
+          </div>
+          <div class="my-3">
+              <span>No tienes cuenta? <a href="#">Regístrate</a></span><br>
+              <span><a href="#">Recuperar Password</a></span>
+          </div>                    
+      </form>
+  </div>
+
+     </div>
+    </div>
+   </div>   
+</body>
+</html>
